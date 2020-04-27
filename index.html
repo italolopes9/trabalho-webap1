@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULADORA DO CIDADÃO</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <div class="banner">
+            <div class="teste">
+                <h2>CALCULADORA DO CIDADÃO</h2>
+                <form method="get" action="calculo_emprestimo.jsp" class="form-txt-margin">
+                    <div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p> O banco lhe ofereceu um Empréstimo no valor de </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" id="valor" name="valor_financiado">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 txt">
+                                <p> para pagar em: </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" id="parcelas" name="meses_financiamento">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 txt">
+                                <p> parcelas mensais fixas sem entrada, com taxa de juros de </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" id="juros" name="juros_financiamento">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 txt">
+                                <p>ao mês. Calcule o valor da parcela(prestação) e juros gerados? </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 teste1">
+                        <button type="submit" name="btnCalcula" class=" btn btn-success">
+                            <strong>Calcular</strong>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

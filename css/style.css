@@ -1,0 +1,39 @@
+.banner{
+    margin-left: 50vh;
+    margin-right: 50vh;
+    width: 100vh;
+    height: 70vh;
+    background: #ededed;
+    border-radius: 20px;
+    margin-top: 7%;
+    text-align: center;
+    
+}
+
+
+
+.teste{
+    padding-top: 5vh;
+}
+
+.testejsp{
+    padding-top: 15vh;
+}
+
+.teste1{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.txt{
+    margin-top: 1vh;
+}
+.form-txt-margin{
+    margin-top: 5vh;
+}
+
+input{
+    border-radius: 20px;
+    border-style: groove;
+    
+}
